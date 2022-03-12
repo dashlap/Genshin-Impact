@@ -8,12 +8,90 @@
     <title>Srenshin Infarct</title>
     <link rel="shortcut icon" href="https://sun7-6.userapi.com/impg/eWs7amT_f2IX4_jhramhpClCEZsmUveC_8wKHA/3lY3XsulQhk.jpg?size=1024x1024&quality=95&sign=d15ac15c184d2537c7e08a4e6df215d7&type=album" type="image/png">
 
-    <style> 
+    <style>
+    .znachki {
+        background-color: cornflowerblue;
+    } 
+
+    .download li {
+        margin-right: 15px;
+        
+    }
+    .city {
+        margin: 0;
+    }
+    .knop {
+        color: rgb(233, 220, 47);
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+        .kartin {
+            display: flex;
+            flex-direction: row;
+        }
+        .mond p {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 36px;
+            
+        }
+        .liue p {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 36px;
+            
+        }
+        .inad p {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 36px;
+            
+        }
+        .skoro p {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 20px;
+            
+        }
+
+        .news h3 {
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .news img {
+            height: 250px;
+            width: 310px;
+        }
+        .news {
+            display: flex;
+            flex-direction: column;
+            background-image: url(http://img2.reactor.cc/pics/post/full/Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-6221764.png);
+            height: 700px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
         .navigation img {
             padding-right: 200px;
         }
-        .glavnaya p {
+        .text {
+            display: flex;
+            justify-content: center;
+            margin: 0;
             color: #fff;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         main {
@@ -33,8 +111,9 @@
         }
         .download {
             display: flex ;
+            justify-content: center;
             flex-direction: row;
-            justify-content: space-around;
+            
         }
 
         .header a {
@@ -70,21 +149,33 @@
         }
 
         .mond {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20200211/2020021114275255981.jpg");
             height: 260px;
         }
 
         .liue {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20200526/2020052612372361982.jpg");
             height: 260px;
         }
 
         .inad {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20210720/2021072015230536749.jpg");
             height: 260px;
         }
 
         .skoro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgb(30, 31, 46);
             height: 260px;
         }
@@ -107,14 +198,12 @@
                     </ul>
                 </nav>
             </div>
-
-            <div>
-
-            </div>
         </header>
         <main>
             <div class="glavnaya">
-                <p>Загрузка для этих платформ уже доступна!</p>
+                <div class="text">
+                    <p>Загрузка для этих платформ уже доступна!</p>
+                </div>
                 <ul class="download">
                     <li><img src="https://webstatic-sea.hoyoverse.com/upload/event/2021/04/27/caf1de876b2d79715604463df4187b2f_4939885485338929477.png"alt="картинка"><a href="https://www.playstation.com/games/genshin-impact/"></a></li>
                     <li><img src="https://webstatic-sea.hoyoverse.com/upload/event/2020/12/14/6ff53bc5d797e9efc2ac7b2b602c267a_8295237617862628623.png" alt="картинка"><a href="https://apps.apple.com/app/id1517783697"></a></li>
@@ -126,18 +215,19 @@
 
             <div class="news">
                 <h3>Новости</h3>
-                <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220210/2022021015340827521.png" alt="">
-                <img src="https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/03/04/235af4e62159910421fbcffbf1cd9c2e_3080234444604533965.jpg" alt="">
-                <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220216/2022021610485443656.png" alt="">
-                <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220215/2022021510370975136.jpg" alt="">
-            
-                <ul>
+                <div class="kartin">
+                    <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220210/2022021015340827521.png" alt="">
+                    <img src="https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/03/04/235af4e62159910421fbcffbf1cd9c2e_3080234444604533965.jpg" alt="">
+                    <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220216/2022021610485443656.png" alt="">
+                    <img src="https://uploadstatic-sea.hoyoverse.com/contentweb/20220215/2022021510370975136.jpg" alt="">
+                </div>
+                <ul class="slide">
                     <li><a href="https://genshin.hoyoverse.com/ru/news/detail/19862"><p>«Радужные волны» | Мини-альбом Genshin Impact</p></a></li>
                     <li><a href="https://genshin.hoyoverse.com/ru/news/detail/19844"><p>Обзор событий версии 2.5 - Выпуск II</p></a></li>
                     <li><a href="https://genshin.hoyoverse.com/ru/news/detail/19837"><p>Молитва «Воплощение божества»: повышен шанс получить оружие Сияющая жатва (Древковое), Вечное лунное сияние (Катализатор)!</p></a></li>
                     <li><a href="https://genshin.hoyoverse.com/ru/news/detail/19827"><p>Молитва «Дрейфующее свечение» - повышен шанс получить персонажа «Жемчужина мудрости» Сангономия Кокоми (Гидро)!</p></a></li>
                     <li><a href="https://genshin.hoyoverse.com/ru/news/detail/19809"><p>Молитва «Господство безмятежности» - повышен шанс получить персонажа «Царство эвтюмии» Сёгун Райдэн (Электро)!</p></a></li>
-                    <a href="https://genshin.hoyoverse.com/ru/news">Дальше</a>
+                    <a class="knop" href="https://genshin.hoyoverse.com/ru/news">Дальше</a>
                 </ul>
             
             </div>
@@ -156,10 +246,25 @@
                     <p>Скоро...</p>
                 </div>
             </section>
+
+            <section class="znachki">
+                <div class="cocial">
+                    <a href="https://www.facebook.com/Genshin-Impact-RU-2358272267741418/"> </a>
+                    <a href="https://twitter.com/RUGenshinimpact"> </a>
+                    <a href="http://www.youtube.com/c/GenshinImpact"> </a>
+                    <a href="https://www.instagram.com/genshinimpact/"></a>
+                    <a href="https://discord.gg/genshinimpact"> </a>
+                    <a href="https://www.reddit.com/r/Genshin_Impact"></a>
+                    <a href="https://vk.com/genshinimpact"> </a>
+                    <a href="https://www.hoyolab.com/home?lang=ru-ru&utm_source=officialweb&utm_medium=game&utm_id=2"> </a>
+                </div>
+            </section>
         </main>
 
         <footer>
             <img src="https://uploadstatic-sea.mihoyo.com/hk4e/upload/officialsites/202004/GIEN_1587984203_6764.png" alt="картинка">
+        
+        
         </footer>
     </section>
 </body>
