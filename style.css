@@ -1,0 +1,256 @@
+.download li {
+    margin-right: 15px;
+
+}
+.city {
+    margin: 0;
+}
+.knop {
+    color: rgb(233, 220, 47);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.kartin {
+    display: flex;
+    flex-direction: row;
+}
+.mond p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    
+}
+.liue p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    
+}
+.inad p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    
+}
+.skoro p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.news h3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news img {
+    height: 250px;
+    width: 310px;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    background-image: url(http://img2.reactor.cc/pics/post/full/Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-6221764.png);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation img {
+    padding-right: 200px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0;
+}
+.news p {
+    color: #fff;
+
+}
+
+.glavnaya {
+    /* background-image: url(https://i.ytimg.com/vi/05p9SLsFy2s/maxresdefault.jpg);*/
+    /*background-size: cover;*/
+    height: 100vh;
+    /*background-repeat: no-repeat;*/
+
+}
+.download {
+    display: flex ;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.header a {
+    color: #fff;
+}
+
+.header li {
+    padding-right: 80px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+
+.mond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20200211/2020021114275255981.jpg");
+    height: 260px;
+}
+
+.liue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20200526/2020052612372361982.jpg");
+    height: 260px;
+}
+
+.inad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://uploadstatic-sea.hoyoverse.com/contentweb/20210720/2021072015230536749.jpg");
+    height: 260px;
+}
+
+.skoro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 31, 46);
+    height: 260px;
+}
+
+.social img {
+    height: 36px;
+    width: 36px;
+    float: left;
+    margin-right: 24px;
+}
+
+.znachki {
+    height: 56px;
+    padding-left: 80px;
+    background-color: rgb(94, 94, 94);
+}
+
+.znachki img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 32px;
+}
+
+.footer p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+}
+
+.footer span {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+
+video {   
+    height: 100%;
+}
+
+.info {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100vh;
+    left: 50%;
+    width: 100%;
+    min-height: 280px;
+    transform: translate(-50%, -340px);
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one img {
+    width: 200px;
+    height: 90px;
+    
+}
+
+.two img {
+    width: 250px;
+    height: 50px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
