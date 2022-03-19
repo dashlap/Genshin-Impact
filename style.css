@@ -1,12 +1,12 @@
 .download li {
     margin-right: 15px;
-
+    padding: 0;
 }
 .city {
     margin: 0;
 }
 .knop {
-    color: rgb(233, 220, 47);
+    color: #fff;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -49,10 +49,11 @@
 }
 
 .news h3 {
+    padding: 150px;
     display: flex;
     justify-content: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .news img {
@@ -63,7 +64,7 @@
     display: flex;
     flex-direction: column;
     background-image: url(http://img2.reactor.cc/pics/post/full/Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-6221764.png);
-    height: 700px;
+    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -88,10 +89,8 @@ main {
 }
 
 .glavnaya {
-    /* background-image: url(https://i.ytimg.com/vi/05p9SLsFy2s/maxresdefault.jpg);*/
-    /*background-size: cover;*/
-    height: 100vh;
-    /*background-repeat: no-repeat;*/
+    height: 100%;
+    width: 100%;
 
 }
 .download {
@@ -106,6 +105,7 @@ main {
 }
 
 .header li {
+    margin: 0;
     padding-right: 80px;
 }
 
@@ -131,6 +131,7 @@ body {
     align-items: center;
     height: 70px;
     background-color: black;
+    
 }
 
 .mond {
@@ -173,42 +174,33 @@ body {
 }
 
 .znachki {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     height: 56px;
     padding-left: 80px;
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(53, 53, 53);
 }
 
-.znachki img {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
 .footer {
-    background-color: rgb(20, 20, 20);
+    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 0 0 32px;
 }
 
 .footer p {
     color: #fff;
     font-family: sans-serif;
     font-size: 12px;
-    
+    text-align: center;
+    max-width: 1080px;
 }
 
-.footer span {
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 12px;
-    font-weight: bolder;
-    
-}
 
 video {   
-    height: 100%;
+    width: 100%;
 }
 
 .info {
@@ -217,7 +209,6 @@ video {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 100vh;
     left: 50%;
     width: 100%;
     min-height: 280px;
@@ -231,26 +222,43 @@ footer {
     justify-content: center;
 }
 
-.one img {
-    width: 200px;
-    height: 90px;
-    
-}
-
-.two img {
-    width: 250px;
-    height: 50px;
-}
-
-.footer1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 .info p {
+    padding: 0;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+
+.two p {
+    font-weight: bolder;
+}
+
+.footer ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.footer li {
+    margin: 0;
+    padding-right: 30px;
+}
+
+.kar {
+    height: 30px;
+    width: 90px;
+}
+.foot {
+    width: 300px;
+    height: 55px;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.knop:hover {
+    color: rgb(233, 222, 69);
 }
