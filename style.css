@@ -305,3 +305,40 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.weapon {
+    margin: 0;
+    background: #000;
+}
+
+.mobs {
+    margin: 0;
+    background: #000;
+}
+
+.weapon h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.weapon p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.mobs h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.mobs p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
