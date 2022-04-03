@@ -439,7 +439,7 @@
 }
 
 .weapon-conteiner {
-    height: 550px;
+    height: 470px;
     width: 700px;
     overflow-x:hidden;
     
@@ -473,8 +473,4 @@ ul.weapon-list {
 
 .weapon-item {
     background-color: rgba(121, 28, 243, 0.61);
-}
-
-.weapon-list span {
-    align: middle;
 }
