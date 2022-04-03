@@ -1,1 +1,1 @@
-# Srenshin-Infarct
+# Genshin-Impact
