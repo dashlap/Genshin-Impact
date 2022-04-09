@@ -46,3 +46,24 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
 });
+
+$('.weapon-all').on('click', function() {
+
+  console.log($(this).attr('id'));
+  console.log($('.question')[$(this).attr('id')]);
+
+
+  if($(this).hasClass('active')) {
+      $('.weapon-all').removeClass('active');
+      $($('.question')[$(this).attr('id')]).removeClass('active');
+      $('.question').show();
+  }
+  else {
+    $('.weapon-all').removeClass('active');
+    $($('.question')[$(this).attr('id')]).removeClass('active');
+    
+    $('.weapon-all').addClass('active');
+    $($('.question')[$(this).attr('id')]).addClass('active');
+    $('.question').show();
+  }
+});
