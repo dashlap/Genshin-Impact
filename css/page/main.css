@@ -438,14 +438,43 @@
     color: rgb(56, 59, 238);
 }
 
-.weapon-conteiner {
+.weapon-conteiner-odnor {
+    display: block;
     height: 470px;
     width: 700px;
     overflow-x:hidden;
     
 }
 
-ul.weapon-list {
+.weapon-conteiner-kopia {
+    display: block;
+    height: 470px;
+    width: 700px;
+    overflow-x:hidden;
+}
+
+.weapon-conteiner-luki {
+    display: block;
+    height: 470px;
+    width: 700px;
+    overflow-x:hidden;
+}
+
+.weapon-conteiner-dvuru {
+    display: block;
+    height: 470px;
+    width: 700px;
+    overflow-x:hidden;
+}
+
+.weapon-conteiner-katal {
+    display: block;
+    height: 470px;
+    width: 700px;
+    overflow-x:hidden;
+}
+
+.weapon-list ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
