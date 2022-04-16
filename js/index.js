@@ -47,23 +47,15 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+
+let active = 0;
 $('.weapon-all').on('click', function() {
+  
+  $($('.weapon-all')[active]).removeClass('active-all');
+  $(this).addClass('active-all');
+  
+  $($('.question')[active]).removeClass('active');
+  $($('.question')[$(this).attr('id')]).addClass('active');
 
-  console.log($(this).attr('id'));
-  console.log($('.question')[$(this).attr('id')]);
-
-
-  if($(this).hasClass('active')) {
-      $('.weapon-all').removeClass('active');
-      $($('.question')[$(this).attr('id')]).removeClass('active');
-      $('.question').show();
-  }
-  else {
-    $('.weapon-all').removeClass('active');
-    $($('.question')[$(this).attr('id')]).removeClass('active');
-    
-    $('.weapon-all').addClass('active');
-    $($('.question')[$(this).attr('id')]).addClass('active');
-    $('.question').show();
-  }
+  active = $(this).attr('id');
 });
