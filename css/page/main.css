@@ -409,18 +409,27 @@
     padding-left: 150px;
 }
 
-.weapon ul {
-    margin: 0;
-    padding-left: 80px;
-}
-
 .weap:hover {
-    color: rgb(56, 59, 238);
+    color: rgb(122, 16, 243);
 }
 
-.weapon li {
+.weapon-all {
     display: flex;
     flex-direction: row;
+}
+
+ul.weapon-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00000052;
+}
+
+.weapon-item {
+    width: 300px;
+    margin: 15px;
+    padding: 5px;
 }
 
 .weapon img {
@@ -473,40 +482,36 @@
     overflow-x:hidden;
 }
 
-.weapon-list ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(0 0 0 / 40%);
-    overflow: scroll;
-    justify-content: flex-start;
-}
-
-
-.weapon li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
-    width: 250px;
-}
-
 .qwerty {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a.zxc {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    justify-content: flex-start;
 }
 
 .weapon-item {
     background-color: rgba(121, 28, 243, 0.61);
 }
 
-.active {
-    display: flex !important;
-}
-
 .question {
     display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.qwerty .active-all {
+    background-color: #0000007c;
+}
+
+.qwerty li {
+    cursor: pointer;
 }
